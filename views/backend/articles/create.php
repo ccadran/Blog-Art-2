@@ -46,8 +46,8 @@ include '../../../header.php';
                     <label for="libConclArt">libConclArt</label>
                     <input id="libConclArt" class="form-control" type="text" name="libConclArt">
 
-                    <label for="urlPhotoArt">urlPhotoArt</label>
-                    <input id="urlPhotoArt" class="form-control" type="text" name="urlPhotoArt">
+                    <label for="urlPhotArt">urlPhotArt</label>
+                    <input id="urlPhotArt" class="form-control" type="text" name="urlPhotArt">
 
                     <label for="numThem">numThem</label>
                     <input id="numThem" class="form-control" type="text" name="numThem">

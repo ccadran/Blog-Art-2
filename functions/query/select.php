@@ -24,6 +24,8 @@ function sql_select($from, $attributs = '*', $where = null, $order = null, $limi
     $error = $DB->errorInfo();
     if($error[0] != 0) {
         echo "Error: " . $error[2];
+        echo $query . "<br>";
+
     } else {
         $result = $result->fetchAll();
     }
