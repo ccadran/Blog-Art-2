@@ -1,0 +1,78 @@
+nav {
+  background: white;
+}
+
+main {
+  background: #f6fbff;
+  padding: 100px 200px;
+}
+main .last-article .last-article-cover {
+  background: url(/views/assets/img/cover\ test.png);
+  height: 300px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+}
+main .last-article .last-article-cover p,
+main .last-article .last-article-cover h3 {
+  margin-left: 40px;
+}
+main .more-articles {
+  margin-top: 100px;
+}
+main .more-articles .grid-articles {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 20px;
+}
+main .more-articles .grid-articles .card-article {
+  width: 100%;
+  display: flex;
+}
+main .more-articles .grid-articles .card-article .card-article-left {
+  width: 70%;
+  margin-bottom: 15px;
+}
+main .more-articles .grid-articles .card-article h3 {
+  font-size: 20px;
+}
+main .more-articles .grid-articles .card-article #date {
+  margin: 10px 0;
+}
+main .more-articles .grid-articles .card-article h4 {
+  font-size: 1em;
+}
+main .more-articles .grid-articles .card-article-right {
+  width: 30%;
+}
+main .more-articles .grid-articles .card-article-right .img-container {
+  height: 50%;
+  padding: 30px;
+}
+main .more-articles .grid-articles .card-article-right .img-container img {
+  width: 100%;
+  height: 100%;
+}
+main .more-articles #voir-plus {
+  margin: 50px auto;
+  display: flex;
+  background: #385ea9;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+footer .legales {
+  display: flex;
+  justify-content: center;
+}
+footer .legales p {
+  margin-right: 20px;
+  padding: 10px;
+  margin-bottom: 0;
+}/*# sourceMappingURL=index.css.map */
