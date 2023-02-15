@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Art</title>
     <!-- Load CSS -->
-    <link rel="stylesheet" href="src/css/style.css">
-    <!-- Bootstrap CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./views/frontend/style/index.css">
+        <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   
 </head>
 
 <?php
@@ -31,7 +31,7 @@ require_once 'config.php';
           <a class="nav-link active" aria-current="page" href="/">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="./views/frontend/all-articles.php">Nos Articles</a>
+          <a class="nav-link active" href="./all-articles.php">Nos Articles</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="">Contact</a>

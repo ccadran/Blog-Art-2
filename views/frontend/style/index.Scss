@@ -7,7 +7,7 @@ main {
     padding: 100px 200px;
     .last-article {
         .last-article-cover {
-            background: url(/views/assets/img/logo.png);
+            background: url(/views/assets/img/cover\ test.png);
             height: 300px;
             border-radius: 25px;
             display: flex;
@@ -71,11 +71,9 @@ main {
         }
     }
 }
-.articles-container {
-    background: red;
-}
 
 footer {
+    background: red;
     .legales {
         display: flex;
         justify-content: center;
@@ -85,4 +83,8 @@ footer {
             margin-bottom: 0;
         }
     }
+}
+
+.articles-container {
+    background: red;
 }

@@ -7,7 +7,7 @@ main {
   padding: 100px 200px;
 }
 main .last-article .last-article-cover {
-  background: url(/views/assets/img/logo.png);
+  background: url(/views/assets/img/cover\ test.png);
   height: 300px;
   border-radius: 25px;
   display: flex;
@@ -67,10 +67,9 @@ main .more-articles #voir-plus {
   border-radius: 5px;
 }
 
-.articles-container {
+footer {
   background: red;
 }
-
 footer .legales {
   display: flex;
   justify-content: center;
@@ -79,4 +78,8 @@ footer .legales p {
   margin-right: 20px;
   padding: 10px;
   margin-bottom: 0;
+}
+
+.articles-container {
+  background: red;
 }/*# sourceMappingURL=index.css.map */
