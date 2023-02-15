@@ -20,9 +20,8 @@ $articles = sql_select('ARTICLE', '*');?>
         <div class="grid-articles">
             <?php 
             $i=0;
-           
             while($i<4){
-                 $article= $articles[$i];
+            $article= $articles[$i];
                 ?>
                 <div class="card-article">
                 <div class="card-article-left">
@@ -44,62 +43,7 @@ $i++;
             
             
             ?>
-            <!-- <div class="card-article">
-                <div class="card-article-left">
 
-                    <h3>tire</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias hic necessitatibus delectus sunt dignissimos ad.</p>
-                    <p id="date">date</p>
-                    <a href=""><h4>LIRE PLUS</h4></a>
-                </div>
-                <div class="card-article-right">
-                    <div class="img-container">
-                        <img src="./views/assets/img/cover test.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="card-article">
-                <div class="card-article-left">
-
-                    <h3>tire</h3>
-                    <p>chapo</p>
-                    <p id="date">date</p>
-                    <a href=""><h4>LIRE PLUS</h4></a>
-                </div>
-                <div class="card-article-right">
-                    <div class="img-container">
-                        <img src="./views/assets/img/cover test.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="card-article">
-                <div class="card-article-left">
-
-                    <h3>tire</h3>
-                    <p>chapo</p>
-                    <p id="date">date</p>
-                    <a href=""><h4>LIRE PLUS</h4></a>
-                </div>
-                <div class="card-article-right">
-                    <div class="img-container">
-                        <img src="./views/assets/img/cover test.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="card-article">
-                <div class="card-article-left">
-
-                    <h3>tire</h3>
-                    <p>chapo</p>
-                    <p id="date">date</p>
-                    <a href=""><h4>LIRE PLUS</h4></a>
-                </div>
-                <div class="card-article-right">
-                    <div class="img-container">
-                        <img src="./views/assets/img/cover test.png" alt="">
-                    </div>
-                </div>
-            </div> -->
         </div>
         <button id="voir-plus">Voir plus</button>
     </div>

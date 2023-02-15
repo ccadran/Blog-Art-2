@@ -7,7 +7,7 @@ main {
     padding: 100px 200px;
     .last-article {
         .last-article-cover {
-            background: url(/views/assets/img/cover\ test.png);
+            background: url(/views/assets/img/logo.png);
             height: 300px;
             border-radius: 25px;
             display: flex;
@@ -70,6 +70,9 @@ main {
             border-radius: 5px;
         }
     }
+}
+.articles-container {
+    background: red;
 }
 
 footer {
