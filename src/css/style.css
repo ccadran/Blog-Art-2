@@ -1,10 +1,9 @@
 nav {
-    background: white;
+    background: rgb(139, 119, 119);
 }
 
 main {
     background: #f6fbff;
-    padding: 100px 200px;
 }
 main .last-article .last-article-cover {
     background: url(/views/assets/img/cover\ test.png);
@@ -67,6 +66,9 @@ main .more-articles #voir-plus {
     border-radius: 5px;
 }
 
+footer {
+    background: red;
+}
 footer .legales {
     display: flex;
     justify-content: center;
@@ -78,5 +80,10 @@ footer .legales p {
 }
 
 .articles-container {
-    background: red;
-} /*# sourceMappingURL=index.css.map */
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles-container .card-all-article {
+    flex: 1 0 25%;
+    max-width: 300px;
+}

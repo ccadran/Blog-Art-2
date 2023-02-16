@@ -8,15 +8,58 @@ $articles = sql_select('ARTICLE', '*');?>
 <main>
     <h1>Tous nos articles</h1>
     <section class="articles-container">
+        <?php 
+        foreach ($articles as $article) { ?> 
+        
+        
         <div class="card-all-article">
             <div class="img-container">
-                <img src="../assets/img/cover test.png" alt="">
+                <img src="./views/assets/img/cover test.png" alt="">
+            </div>
+            <h3><?php echo $article['libTitrArt'] ?></h3>
+            <p><?php echo $article['libChapoArt'] ?></p>
+            <p id="all-date"><?php echo $article['dtCreArt'] ?></p>
+            <a href=""><button class="discover">DÉCOUVRIR</button></a>
+        </div>
+        <?php } ?>
+        <!-- <div class="card-all-article">
+            <div class="img-container">
+                                <img src="./views/assets/img/cover test.png" alt="">
+
             </div>
             <h3>titre</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
             <p id="all-date">Il y a ...</p>
-            <button class="discover">test</button>
+            <button class="discover">DÉCOUVRIR</button>
         </div>
+        <div class="card-all-article">
+            <div class="img-container">
+                                <img src="./views/assets/img/cover test.png" alt="">
+
+            </div>
+            <h3>titre</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
+            <p id="all-date">Il y a ...</p>
+            <button class="discover">DÉCOUVRIR</button>
+        </div>
+        <div class="card-all-article">
+            <div class="img-container">
+                <img src="./views/assets/img/cover test.png" alt="">
+            </div>
+            <h3>titre</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
+            <p id="all-date">Il y a ...</p>
+            <button class="discover">DÉCOUVRIR</button>
+        </div>
+        <div class="card-all-article">
+            <div class="img-container">
+                <img src="./views/assets/img/cover test.png" alt="">
+            </div>
+            <h3>titre</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
+            <p id="all-date">Il y a ...</p>
+            <button class="discover">DÉCOUVRIR</button>
+        </div> -->
     </section>
 </main>
 
