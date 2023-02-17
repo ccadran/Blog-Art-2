@@ -19,47 +19,11 @@ $articles = sql_select('ARTICLE', '*');?>
             <h3><?php echo $article['libTitrArt'] ?></h3>
             <p><?php echo $article['libChapoArt'] ?></p>
             <p id="all-date"><?php echo $article['dtCreArt'] ?></p>
-            <a href=""><button class="discover">DÉCOUVRIR</button></a>
+            <a href="article.php?numArt=<?php echo $article['numArt']; ?>">
+    <button class="discover">DÉCOUVRIR</button>
+</a>
         </div>
         <?php } ?>
-        <!-- <div class="card-all-article">
-            <div class="img-container">
-                                <img src="./views/assets/img/cover test.png" alt="">
-
-            </div>
-            <h3>titre</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
-            <p id="all-date">Il y a ...</p>
-            <button class="discover">DÉCOUVRIR</button>
-        </div>
-        <div class="card-all-article">
-            <div class="img-container">
-                                <img src="./views/assets/img/cover test.png" alt="">
-
-            </div>
-            <h3>titre</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
-            <p id="all-date">Il y a ...</p>
-            <button class="discover">DÉCOUVRIR</button>
-        </div>
-        <div class="card-all-article">
-            <div class="img-container">
-                <img src="./views/assets/img/cover test.png" alt="">
-            </div>
-            <h3>titre</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
-            <p id="all-date">Il y a ...</p>
-            <button class="discover">DÉCOUVRIR</button>
-        </div>
-        <div class="card-all-article">
-            <div class="img-container">
-                <img src="./views/assets/img/cover test.png" alt="">
-            </div>
-            <h3>titre</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam.</p>
-            <p id="all-date">Il y a ...</p>
-            <button class="discover">DÉCOUVRIR</button>
-        </div> -->
     </section>
 </main>
 
