@@ -14,8 +14,14 @@
 <?php
 //load config
 require_once 'config.php';
-
 //load php scripts
+// session_start();
+// if (session_status() === PHP_SESSION_ACTIVE) {
+//     echo 'La session est lancée.';
+// } else {
+//     echo 'La session n\'est pas lancée.';
+// }
+
 ?>
 <body>
 
@@ -31,11 +37,12 @@ require_once 'config.php';
           <a class="nav-link active" aria-current="page" href="/">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="./all-articles.php">Nos Articles</a>
+          <a class="nav-link active" href="/all-articles.php">Nos Articles</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="">Contact</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link active" href="/views/backend/dashboard.php">Admin</a>
         </li>

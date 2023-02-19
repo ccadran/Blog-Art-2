@@ -1,5 +1,5 @@
 nav {
-    background: rgb(158, 35, 35);
+    background: rgb(255, 255, 255);
 }
 
 main {
@@ -7,7 +7,7 @@ main {
     padding: 100px 200px;
     .last-article {
         .last-article-cover {
-            background: url(/views/assets/img/cover\ test.png);
+            // background: url(/views/assets/img/cover\ test.png) cover/no-repeat;
             height: 300px;
             border-radius: 25px;
             display: flex;
@@ -15,8 +15,12 @@ main {
             justify-content: end;
             color: white;
             p,
-            h3 {
+            h3,
+            h4 {
                 margin-left: 40px;
+            }
+            h4 {
+                font-size: 1rem;
             }
         }
     }
@@ -76,7 +80,8 @@ footer {
     .legales {
         display: flex;
         justify-content: center;
-        p {
+        a {
+            text-decoration: none;
             margin-right: 20px;
             padding: 10px;
             margin-bottom: 0;
@@ -121,7 +126,7 @@ footer {
     }
 }
 .other-article {
-    width: 100%;
+    width: 200px;
     background: #3a5ea9;
     color: white;
     border: none;

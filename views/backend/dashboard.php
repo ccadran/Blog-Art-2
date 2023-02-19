@@ -2,10 +2,14 @@
 include '../../header.php';
 //Security check
 //Level 1 mean administator in DB
-
-
-if (!check_access(1)) {
-    header('Location: /'); //Redirect to home
+session_start();
+if (session_status() === PHP_SESSION_ACTIVE) {
+    echo 'La session est lancée.';
+} else {
+    echo 'La session n\'est pas lancée.';
+}
+if (check_access(1)) {
+    header('Location: /index.php'); //Redirect to home
     exit();
 } 
 ?>

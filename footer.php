@@ -1,7 +1,7 @@
 <footer>
     <div class="legales">
-        <p>Mebtions légales</p>
-        <p>C.G.U</p>
+       <a href="./mentions.php">Mebtions légales</a> 
+       <a href="./cgu.php">C.G.U</a> 
     </div>
 </footer>
 

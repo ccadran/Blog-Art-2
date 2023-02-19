@@ -1,5 +1,5 @@
 nav {
-  background: rgb(158, 35, 35);
+  background: rgb(255, 255, 255);
 }
 
 main {
@@ -7,7 +7,6 @@ main {
   padding: 100px 200px;
 }
 main .last-article .last-article-cover {
-  background: url(/views/assets/img/cover\ test.png);
   height: 300px;
   border-radius: 25px;
   display: flex;
@@ -16,8 +15,12 @@ main .last-article .last-article-cover {
   color: white;
 }
 main .last-article .last-article-cover p,
-main .last-article .last-article-cover h3 {
+main .last-article .last-article-cover h3,
+main .last-article .last-article-cover h4 {
   margin-left: 40px;
+}
+main .last-article .last-article-cover h4 {
+  font-size: 1rem;
 }
 main .more-articles {
   margin-top: 100px;
@@ -71,7 +74,8 @@ footer .legales {
   display: flex;
   justify-content: center;
 }
-footer .legales p {
+footer .legales a {
+  text-decoration: none;
   margin-right: 20px;
   padding: 10px;
   margin-bottom: 0;
@@ -115,7 +119,7 @@ footer .legales p {
 }
 
 .other-article {
-  width: 100%;
+  width: 200px;
   background: #3a5ea9;
   color: white;
   border: none;
